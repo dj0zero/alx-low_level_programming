@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
 	char alphabet [26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
