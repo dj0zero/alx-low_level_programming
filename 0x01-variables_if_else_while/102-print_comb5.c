@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i, j;
+
 	i = 0;
 
 	while (i <= 98)
@@ -18,9 +19,7 @@ int main(void)
 {
 	putchar(i / 10 + '0');
 	putchar(i % 10 + '0');
-
 	putchar(' ');
-	
 	putchar(j / 10 + '0');
 	putchar(j % 10 + '0');
 
@@ -28,7 +27,7 @@ int main(void)
 {
 		putchar('\n');
 }
-																else													
+	else													
 {
 	putchar(',');
 	putchar(' ');
