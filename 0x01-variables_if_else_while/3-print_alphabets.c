@@ -9,14 +9,25 @@
 
 int main(void)
 {
-	char alphabet[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	int i = 0;
+char ch;
 
-	while (i < 52)
-	{
-		putchar(alphabet[i]);
-		i++
-	}
-	putchar('\n');
-	return (0);
+for (ch = 'a' ; ch <= 'z' ; ch++)
+
+{
+
+		putchar(ch);
+
+}
+
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+
+{
+
+		putchar(ch);
+
+}
+
+putchar('\n');
+
+return (0);
 }
