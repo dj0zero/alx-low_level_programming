@@ -11,7 +11,7 @@ int main(void)
 {
 	char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
-	usigned int v;
+	unsigned int v;
 
 	for (v = 0; v < sizeof(_putchar); v++)
 
