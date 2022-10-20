@@ -5,17 +5,27 @@
  * followed by a new line
  * Return: 0
  */
+ 
 
 int main(void)
 {
-	char alphabet[24] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0;
+char ch;
 
-	while(i < 24)
+for (ch = 'a' ; ch <= 'z' ; ch++)
+	
+{
+	
+	if (ch != 'e' && ch != 'q')
+		
 	{
-		putchar(alphabet[i]);
-		i++;
+		
+			putchar(ch);
+			
 	}
-	putchar('\n');
-	return (0);
+	
+}
+{
+putchar('\n');
+
+return (0);
 }
