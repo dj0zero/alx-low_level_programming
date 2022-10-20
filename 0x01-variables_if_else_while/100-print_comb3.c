@@ -1,35 +1,34 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all possible different combinations of 2 digits
+ * main - prints all possible different combinations of two digits
  * Return: 0
  */
 
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
+	int a, b, c;
 
-	while (c <= 99)
+	a - 0;
+
+	while (a <= 100)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
+		b = a % 10;
+		c = a / 10;
 
-		if (f_d < l_d)
+		if (c < b)
 		{
-			putchar(f_d);
-			putchar(l_d);
+			putchar(b + '0');
+			putchar(c + '0');
 
-			if (c != 89)
+			if (a < 89)
 			{
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
+		a++;
 	}
-	c++;
-
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
