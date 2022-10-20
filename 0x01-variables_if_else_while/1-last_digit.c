@@ -3,18 +3,17 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit
- * of a random number
+ * main - prints the last digit of a random number
  * Return: 0
  */
 
 int main (void)
 {
 	int n;
+	int s;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	s = n % 10;
 
 	if (s > 5)
