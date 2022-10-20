@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - prints whether random number 
- * is positive or negative
+ * main - print if the number is positive or negative
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
  * Return: 0
  */
 
