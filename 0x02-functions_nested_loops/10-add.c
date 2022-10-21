@@ -3,8 +3,8 @@
 
 /**
  * add - function that adds two integers and returns the result
- * a will be integer one
- * b will be integer twp
+ * @a: will be integer one
+ * @b: will be integer tw0
  * Return: int
  */
 
