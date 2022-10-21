@@ -8,7 +8,7 @@
  * Return: int
  */
 
-void print_to_98(int n)
+void print_to_98(int a)
 {
 	while (a != 98)
 	{
