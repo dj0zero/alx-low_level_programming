@@ -16,7 +16,7 @@ int main(void)
 	for (c = 0; c < sizeof(main); c++)
 
 	{
-		_putchar(main[v]);
+		_putchar(main[c]);
 	}
 _putchar('\n');
 return (0);
