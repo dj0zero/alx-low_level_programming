@@ -2,12 +2,12 @@
 
 /**
  * print_sign - function to print the sign of a number
- * n will used in the function
+ * @n: will used in the function
  *
  * Return: 0
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 	if (n > 0)
 	{
