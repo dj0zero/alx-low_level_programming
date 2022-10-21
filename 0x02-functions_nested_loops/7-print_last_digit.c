@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int print_last_digit(int c);
+int print_last_digit(int c)
 {
 	if (c > 0 || c == 0)
 	{
