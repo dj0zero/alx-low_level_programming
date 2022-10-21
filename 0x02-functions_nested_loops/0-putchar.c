@@ -9,14 +9,14 @@
 int main(void)
 
 {
-	char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char main[4] = {'M', 'a', 'i', 'n'};
 
-	unsigned int v;
+	unsigned int c;
 
-	for (v = 0; v < sizeof(_putchar); v++)
+	for (c = 0; c < sizeof(main); c++)
 
 	{
-		_putchar(_putchar[v]);
+		_putchar(main[v]);
 	}
 _putchar('\n');
 return (0);
