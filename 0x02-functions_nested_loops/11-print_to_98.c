@@ -4,22 +4,22 @@
 /**
  * print_to_98 - function to print all natural numbers upto 98,
  * followed by a new line
- * n will be integer in function
+ * @a: will be integer in function
  * Return: int
  */
 
-void print_to_98(int n);
+void print_to_98(int n)
 {
-	while (n != 98)
+	while an != 98)
 	{
-		printf("%i, ", n);
-		if (n > 98)
+		printf("%i, ", a);
+		if (a > 98)
 		{
-			n--;
+			a--;
 		}
 		else
 		{
-			n++;
+			a++;
 		}
 	}
 	printf("98\n");
