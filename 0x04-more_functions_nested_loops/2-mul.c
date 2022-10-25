@@ -2,12 +2,12 @@
 
 /**
  * mul - function multiplies two integers
- * @i: will be integer one
- * @n: will be integer two
+ * @a: will be integer one
+ * @b: will be integer two
  * Return: 0 
  */
 
-int mul(int i, int n)
+int mul(int a, int b)
 {
-	return (i * n);
+	return (a * b);
 }
