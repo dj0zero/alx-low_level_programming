@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - functions prints a string,
+ * _puts - function prints a string,
  * followed by a new line,
  * to stdout
  * @str: will be used to declare *str
@@ -14,7 +14,7 @@ void _puts(char *str)
 
 	for (c = 0; str[c] != 0; c++)
 	{
-		putchar(str[c]);
+		_putchar(str[c]);
 	}
 	_putchar('\n');
 }
