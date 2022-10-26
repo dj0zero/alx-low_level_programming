@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*8
+/**
  * rev_string - function reverses a string
  * @s: will represent string
  * Return: 0
