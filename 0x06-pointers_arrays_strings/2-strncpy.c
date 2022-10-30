@@ -8,7 +8,7 @@
  * Return: pointer to dest
  */
 
-char *_strncpy(chat *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
