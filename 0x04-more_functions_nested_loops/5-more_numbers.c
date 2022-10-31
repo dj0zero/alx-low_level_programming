@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * more_numbers - function prints numbers between 0 to 14
