@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * str_cocat - function that concatenates two strings
+ * str_concat - function that concatenates two strings
  * @s1: will be concatenated strings
  * @s2: will be string concatenated to s1
- * 
+ *
  * Return: NULL if concatenation fails
  * otherwise pointer to the newly allocated space memory
  * containing concatenated strings
