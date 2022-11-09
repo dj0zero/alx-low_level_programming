@@ -27,11 +27,6 @@ int main(void)
 		{
 			printf("%d ", a);
 		}
-		if (a != 100)
-		{
-			_putchar(' ');
-		}
-
 		a++;
 	}
 	_putchar('\n');
