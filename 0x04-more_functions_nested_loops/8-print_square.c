@@ -25,4 +25,3 @@ void print_square(int size)
 	if a == 0;
 		_putchar('\n');
 }
-
