@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * create_array - function creates arrays of char the initializes it with specific char
+ * create_array - function creates arrays of char 
+ * then initializes it with specific char
  * @size: will be size of array to initialize
  * @c: will be char to be initialized
  * Return: if size = 0 give NULL
