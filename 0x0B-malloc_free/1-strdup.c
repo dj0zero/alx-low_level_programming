@@ -9,7 +9,7 @@
  * otherwise pointer to duplicate string
  */
 
-char *strdup(char *str)
+char *_strdup(char *str)
 {
 	char *duplicate;
 	int index, len = 0;
