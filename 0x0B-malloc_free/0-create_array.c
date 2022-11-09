@@ -1,5 +1,5 @@
 #include "main.h"
-#Include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array - function creates arrays of char the initializes it with specific char
@@ -12,7 +12,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *array;
-	unisgned int index;
+	unsigned int index;
 
 	if (size == 0)
 		return (NULL);
