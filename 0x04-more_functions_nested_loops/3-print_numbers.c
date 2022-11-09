@@ -3,7 +3,7 @@
 /**
  * print_numbers - function that prints numbers from 0 to 9
  * followed by new line
- *
+ * @c: will be the character
  * Return: 0
  */
 
