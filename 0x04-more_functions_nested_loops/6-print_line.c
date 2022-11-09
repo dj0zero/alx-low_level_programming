@@ -3,11 +3,10 @@
 /**
  * print_line - function draws straight line in terminal
  * @n: will be number of times character prints
- *
  * Return: 0
  */
 
-void print_line(void)
+void print_line(int n)
 {
 	int b = 0;
 
