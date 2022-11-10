@@ -2,16 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - function prints the name of the program
- * followed by new line
+ * main - function prints all arguments received
  * @argc: will be number of command line arguments
- * @argv: will be the array name
+ * @argv: will be array name
  * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[argc * 0]);
+	int b;
+
+	for (b = 0; b < argc; b++)
+		printf("%s\n", argv[v]);
 
 	return (0);
 }
