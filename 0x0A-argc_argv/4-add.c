@@ -5,7 +5,7 @@
 
 /**
  * main - functions prints the sum of positive numbers
- * @Argc: will be number of command line arguments
+ * @argc: will be number of command line arguments
  * @argv: will be array name
  * Return: 1 if input in a non-integer
  * otherwise 0
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		for (b = 0; argv[a][b] != '\0'; b++)
 		{
-			if (!isdigit(argv[i][j]))
+			if (!isdigit(argv[a][b]))
 			{
 				printf("Error\n");
 				return (1);
