@@ -4,6 +4,7 @@
 /**
  * main - function prints the name of the program
  * followed by new line
+ * @argc: will be number of command line arguments
  * @argv: will be the array name
  * Return: 0
  */
