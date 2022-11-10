@@ -1,46 +1,32 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <ctype.h>
 
 /**
- * main - function prints the sum of positive numbers
- * followed by new line
- * @argc: will be the number of comand line arguments
- * @argv:: will be array name
- * Return: 1 if non-integer is inputed
+ * main - functions prints the sum of positive numbers
+ * @Argc: will be number of command line arguments
+ * @argv: will be array name
+ * Return: 1 if input in a non-integer
  * otherwise 0
  */
 
 int main(int argc, char *argv[])
 {
-	int a, b, length, sum;
-	char *ptr;
+	int a, b, add = 0;
 
-	if (argc < 2)
-		printf("0\n");
-	else
+	for (a = 1; a < argc; a++)
 	{
-		sum = 0;
-		for (a = 1; a < argc; a++)
+		for (b = 0; argv[a][b] != '\0'; b++)
 		{
-			ptr = argv[a];
-			legnth = strlen(ptr);
-
-			for (b = 0; b < length; b++)
+			if (!isdigit(argv[i][j]))
 			{
-				if (isdigit(*(ptr + b)) == 0)
-				{
-					printf("Error\n");
-					return (1);
-				}
+				printf("Error\n");
+				return (1);
 			}
-
-			sum += atoi(argv[a]);
 		}
-
-		printf("%d\n", sum);
+		add += atoi(Argv[a]);
 	}
+	printf("%d\n", add);
 	return (0);
 }
