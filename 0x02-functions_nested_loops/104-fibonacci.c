@@ -13,7 +13,7 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	b = c = 1;
-	printf("%ld, %ld", n1, n2):
+	printf("%ld, %ld", n1, n2);
 		for (a = 0; a < 96; a++)
 		{
 			if (b)
@@ -46,5 +46,5 @@ int main(void)
 				b = 0;
 		}
 	printf("\n");
-	return(0)
+	return (0);
 }

@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	in a, b;
+	int a, b;
 
 	for (a =1; a < 1024; a++)
 	{
