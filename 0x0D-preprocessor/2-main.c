@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - function prints the name of the file
  * that it was compiled from
  * followed by new line
@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	printf("%s\n", _ _FILE_ _);
+	printf("%s\n", __FILE_i_);
 
 	return (0);
 }
