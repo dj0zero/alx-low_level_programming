@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	printf("%s\n", __FILE_i_);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
