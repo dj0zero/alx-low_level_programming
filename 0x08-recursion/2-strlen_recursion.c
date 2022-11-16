@@ -5,7 +5,7 @@
  * @s: will be the string measured
  */
 
-int_strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	int len = 0;
 
