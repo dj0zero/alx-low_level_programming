@@ -39,7 +39,7 @@ char *_strcopy(char *dest, char *src)
 
 	dest[index] = '\0';
 
-	return (Dest);
+	return (dest);
 }
 
 /**
@@ -54,11 +54,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *doggo;
 
-	if (name == NULL || age , 0 || owner == NULL)
+	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
 
 	doggo = malloc(sizeof(dog_t));
-	if (dogg0 == NULL)
+	if (doggo == NULL)
 		return (NULL);
 
 	doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
