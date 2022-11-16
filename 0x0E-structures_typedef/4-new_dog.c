@@ -3,7 +3,7 @@
 
 int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
-dog_t *new_dog(cjhar *name, float age, char *owner);
+dog_t *new_dog(char *name, float age, char *owner);
 
 /**
  * _strlen - function finds the legnth of a string
