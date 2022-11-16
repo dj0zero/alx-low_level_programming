@@ -10,7 +10,7 @@
  * otherwise a pointer to concatenated space in memory
  */
 
-char *string_nconcat(char *s1, char *S2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 
 	char *concat;
