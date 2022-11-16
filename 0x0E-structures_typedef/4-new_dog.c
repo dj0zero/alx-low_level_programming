@@ -30,7 +30,7 @@ int _strlen(char *str)
  * Return: pointer to dest
  */
 
-char *_strcopy(char *dest, char *Src)
+char *_strcopy(char *dest, char *src)
 {
 	int index = 0;
 
