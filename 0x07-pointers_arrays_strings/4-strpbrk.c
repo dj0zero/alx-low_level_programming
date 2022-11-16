@@ -9,7 +9,7 @@
  * otherwise NULL if no similar byte found
  */
 
-char *strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int c, d;
 
