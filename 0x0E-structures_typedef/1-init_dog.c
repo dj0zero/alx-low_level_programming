@@ -1,5 +1,4 @@
 #include "dog.h"
-#include <stdlib.h>
 
 /**
  * init_dog - function that initializes
@@ -8,11 +7,12 @@
  * @name: will be the dog's name
  * @age: will be the dog's age
  * @owner: will be the dog's owner
+ * Return: no return
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL)
+	if (d)
 	{
 		d->name = name;
 		d->age = age;
