@@ -8,10 +8,10 @@ dog_t *new_dog(char *name, float age, char *owner);
 /**
  * _strlen - function finds the legnth of a string
  * @str: will be string to be measured
- * Return: the string legnth
+ * Return: the string length
  */
 
-int _strlen(char *Str)
+int _strlen(char *str)
 {
 	int len = 0;
 
