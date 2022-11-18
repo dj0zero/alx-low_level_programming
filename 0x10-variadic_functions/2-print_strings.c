@@ -12,7 +12,7 @@
  * otherwise (nil) is printed if string is NULL
  */
 
-void print_strings(const char *seperator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list strings;
 	char *str;
@@ -30,8 +30,8 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 		else
 			printf("%d", str);
 
-		if (index != (n - 1) && seperator != NULL)
-			printf("%d", seperator);
+		if (index != (n - 1) && separator != NULL)
+			printf("%d", separator);
 	}
 
 	printf("\n");

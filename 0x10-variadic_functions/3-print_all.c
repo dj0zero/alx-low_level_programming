@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings - funciton prints anything
+ * print_all - funciton prints anything
  * @format: will be a list of arguments passed to function
  * @...: will be variable number
  * Return: no return
@@ -14,7 +14,7 @@ void print_all(const char * const format, ...)
 	char *str;
 	const char t_arg[] = "cifs"
 
-	va_Start(valist, format);
+	va_start(valist, format);
 	while (format && format[i])
 	{
 		j = 0;
@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 				break;
 
 			case 's';
-				str = va_Arg(num, char *), c =1;
+				str = va_arg(num, char *), c =1;
 				if (!str)
 				{
 					printf("(nil)");

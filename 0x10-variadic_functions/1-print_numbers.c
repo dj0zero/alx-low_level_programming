@@ -8,9 +8,10 @@
  * @seperator: will be the string to be printed between numbers
  * @n: will be number of integers passed to function
  * @...: will be variable number
+ * Return: no return
  */
 
-void print_numbers(const char *seperator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list num;
 	unsigned int index;
@@ -19,10 +20,10 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 
 	for (index = 0; index < n; index++)
 	{
-		printf("%d", va_arg(nums, int));
+		printf("%d", va_arg(num, int));
 
-		if (index != (n - 1) && seperator != NULL)
-			printf=("%i", seperator);
+		if (index != (n - 1) && separator != NULL)
+			printf=("%i", separator);
 	}
 
 	printf("\n");
