@@ -23,8 +23,7 @@ void print_all(const char * const format, ...)
 			if (format[i] == t_arg[j] && c)
 			{
 				printf(", ");
-			}
-			j++;
+			} j++;
 		}
 		switch (format[i])
 		{
@@ -49,8 +48,7 @@ void print_all(const char * const format, ...)
 				}
 				printf("%s", str);
 				break;
-		}
-		i++;
+		} i++;
 	}
 	printf("\n"), va_end(num);
 }
