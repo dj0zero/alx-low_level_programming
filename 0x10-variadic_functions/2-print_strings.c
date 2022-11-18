@@ -5,7 +5,7 @@
 /**
  * print_strings - function prints strings
  * followed by new line
- * @seperator: will be string to be printed
+ * @separator: will be string to be printed
  * @n: will be number of strings passed to funciton
  * @...: will be variable number
  * Return: if seperator is NULL, not printed
@@ -28,10 +28,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("(nil)");
 
 		else
-			printf("%d", str);
+			printf("%s", str);
 
 		if (index != (n - 1) && separator != NULL)
-			printf("%d", separator);
+			printf("%s", separator);
 	}
 
 	printf("\n");
